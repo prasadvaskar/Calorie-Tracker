@@ -1,0 +1,36 @@
+.section-banner{
+
+    height: 45rem;
+    width: 90rem;
+    margin-top: 5%;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;    
+}
+
+.banner-content {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.banner-content img{
+    
+    width: 20%;
+    height: 20%;
+    border: 5px solid white;
+}
+
+.section-div{
+    margin-top: 10%;
+}
