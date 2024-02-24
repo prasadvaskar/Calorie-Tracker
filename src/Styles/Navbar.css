@@ -3,7 +3,9 @@
     height: 7rem;
     background-color: #6bf204;
     display: grid;
-    grid-template-columns: 20rem 5fr 2rem ;
+    grid-template-columns: 20rem 5fr 1rem;
+    overflow: hidden;
+    align-items: center;
 }
 
 .brand{
@@ -13,7 +15,8 @@
 }
 
 .menu{
-    margin-left: 75%;
+    margin-left: 85%;
+    display: block;
 }
 
 .menu ul{
@@ -26,4 +29,81 @@
 
 .menu ul li {
     text-transform: uppercase;
+}
+
+.navbar-icon{
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+
+    .menu{
+        margin-left: 80%;
+        display: block;
+    }
+    
+
+}
+
+@media screen and (max-width:1430px) {
+
+    .menu{
+        margin-left: 75%;
+        display: block;
+    }
+    
+
+}
+
+@media screen and (max-width:1300px) {
+    .menu{
+        margin-left: 70%;
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .menu{
+        margin-left: 60%;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .menu{
+        margin-left: 50%;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .menu{
+        margin-left: 40%;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .menu ul{
+        display: none;
+    }
+
+    .navbar-icon{
+        display: block;
+    
+    }
+
+    .main-navbar{
+
+        display: grid;
+        grid-template-columns: 20rem 1fr 10rem;
+
+    }
+
+
 }
