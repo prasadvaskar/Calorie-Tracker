@@ -1,0 +1,14 @@
+.floating-button{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 10rem;
+    background-color: red;
+}
+
+.options-container{
+    display: flex;
+    gap: 2rem;    
+    position: absolute;
+    right: 2rem;
+    bottom: 10rem;
+}
