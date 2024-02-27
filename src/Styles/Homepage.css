@@ -1,5 +1,4 @@
-.section-banner{
-
+.section-banner {
     height: 45rem;
     width: 90rem;
     margin-top: 5%;
@@ -7,15 +6,15 @@
     border-radius: 10px;
 }
 
-.main-container{
+.main-container {
     height: 100%;
     width: 100%;
     display: grid;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .banner-content {
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,70 +23,97 @@
 
 }
 
-.banner-content img{
-    
+.banner-content img {
+
     width: 20%;
     height: 20%;
     border: 5px solid white;
 }
 
-.section-div{
+.section-div {
     margin-top: 10%;
 }
 
 @media screen and (max-width:1430px) {
 
-    .section-banner{
+    .section-banner {
         height: 40rem;
         width: 80rem;
     }
-    
+
 
 }
 
 @media screen and (max-width:1400px) {
 
-    .section-banner{
+    .section-banner {
         height: 35rem;
         width: 75rem;
     }
-    
+
 
 }
 
 @media screen and (max-width:1300px) {
 
-    .section-banner{
+    .section-banner {
         height: 30rem;
         width: 60rem;
     }
-    
+
 
 }
 
 
 @media screen and (max-width:990px) {
 
-   .banner-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-   }
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
 
-   
-   .section-banner{
-    width: fit-content;
-    height: fit-content;
+
+    .section-banner {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .banner-content img {
+
+        width: 12rem;
+        height: 12rem;
+        border: 5px solid white;
+    }
+
+
 }
 
-.banner-content img{
-    
-    width: 12rem;
-    height: 12rem;
-    border: 5px solid white;
-}
-    
+
+@media screen and (max-width: 650px) {
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+
+    .section-banner {
+        width: 75vw;
+        height: fit-content;
+    }
+
+    .banner-content img {
+
+        width: 12rem;
+        height: 12rem;
+        border: 5px solid white;
+    }
+
 
 }
