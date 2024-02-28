@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <Homepage></Homepage>
+      {/* <Homepage></Homepage> */}
 
-{/* 
+
       <LandingPage></LandingPage>
-      <SearchPage></SearchPage> */}
+      {/* <SearchPage></SearchPage> */}
     </div>
   );
 }

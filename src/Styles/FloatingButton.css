@@ -8,7 +8,24 @@
 .options-container{
     display: flex;
     gap: 2rem;    
-    position: absolute;
+    position: fixed;
     right: 2rem;
     bottom: 10rem;
+    
+}
+
+
+
+@media screen and (max-width:750px) {
+    
+    .options-container{
+        display: flex;
+        gap: 2rem;
+        position: absolute;
+        right: 2rem;
+        bottom: 10rem;
+        flex-direction: column;
+    }
+    
+    
 }

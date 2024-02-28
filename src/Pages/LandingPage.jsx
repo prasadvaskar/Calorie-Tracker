@@ -7,7 +7,7 @@ import CalorieCount from '../Component/CalorieCount'
 const LandingPage = () => {
   return (
     <>
-      <Navbar/>
+      
       <div className='calorie-box-container'>
         <div className='physical-calorie-box'>
           <CalorieCount className = 'calorie-circle'></CalorieCount>
