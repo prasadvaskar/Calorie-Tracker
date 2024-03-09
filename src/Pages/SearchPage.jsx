@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Component/Navbar'
 import '../Styles/SearchPage.css'
 
 const SearchPage = () => {

@@ -1,0 +1,35 @@
+.login-container {
+    width: 50rem;
+    height: 10rem;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    border-radius: 10px;
+
+}
+
+.login-container input {
+    width: 25rem;
+    height: 5rem;
+    position: relative;
+    top: 10%;
+}
+
+
+.otp-container{
+    width: 50rem;
+    height: 10rem;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    border-radius: 10px;
+}
+
+.otp-container input {
+    width: 25rem;
+    height: 5rem;
+    position: relative;
+    top: 10%;
+}
