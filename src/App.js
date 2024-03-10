@@ -5,7 +5,6 @@ import Homepage from './Pages/Homepage';
 import LandingPage from './Pages/LandingPage'
 import SearchPage from './Pages/SearchPage';
 import LoginPage from './Pages/LoginPage';
-import { useSelector } from 'react-redux';
 import PrivateRoute from './PrivateRoutes/PrivateRoute';
 
 
